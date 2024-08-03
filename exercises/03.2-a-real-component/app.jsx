@@ -14,7 +14,7 @@ function BootstrapCard() {
 					Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer/songwriter, author, and artist who has been an
 					influential figure in popular music and culture for more than five decades.
 				</p>
-				<a href="https://dpalbum.es/wp-content/uploads/2018/11/ainara.jpg" className="btn btn-primary">
+				<a href="https://en.wikipedia.org/wiki/Bob_Dylan" className="btn btn-primary">
 					Go to wikipedia
 				</a>
 			</div>
