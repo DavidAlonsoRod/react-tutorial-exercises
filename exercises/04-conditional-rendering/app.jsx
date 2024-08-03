@@ -2,19 +2,21 @@ import React from "react";
 import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
-const Alert = props => {
+const Alert = (props) => {
 	// Add the condition inside this function
 
-	return (
-		<div className="alert alert-primary" role="alert">
-			This is a primary alert - check it out!
-		</div>
-	);
+	if (props.show === false) {
+		return null;
+	} else {
+		return (
+			<div className="alert alert-primary" role="alert">
+				This is a primary alert - check it out!
+			</div>
+		);
+	}
 };
 
-Alert.propTypes = {
-	
-};
+Alert.propTypes = {};
 
 // Here is where the <Alert /> component is being used, you don't have to edit this part
 // But it helps you understand what properties are being passed to the component
